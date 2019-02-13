@@ -1,0 +1,4 @@
+# ignore webstorm files
+.idea
+# ignores mac os files
+.DS_Store
