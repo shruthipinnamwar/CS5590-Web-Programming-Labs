@@ -1,0 +1,55 @@
+#outerbox
+{
+width:400px;
+}
+#sliderbox
+{
+width:1600px;
+    position:relative;
+    animation-name: anusha;
+    animation-duration: 20s;
+    animation-iteration-count:infinite;
+}
+#sliderbox img
+  {
+    float:left;
+  }
+@keyframes anusha {
+    0%
+    {
+      left:0px;
+    }
+    20%     /* for from 1 to 4sec duration x100/20sec */
+    {
+        left:0px;
+    }
+    25% /* for 5th second 5x100/20  */
+    {
+        left:-400px;
+    }
+  45%   /* from 5 to 9th second 9x100/5*/
+ {
+     left:-400px;
+ }
+    50%  /* 10 */
+    {
+        left:-800px;
+    }
+    70%    /* 14 */
+    {
+        left:-800px;
+    }
+    75%   /* 15 */
+    {
+        left:-1200px;
+    }
+    95%  /* 19*/
+    {
+        left:-1200px;
+    }
+    100%
+
+    {
+      left:-1600px;
+    }
+}
